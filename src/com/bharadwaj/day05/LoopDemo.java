@@ -2,7 +2,7 @@ package com.bharadwaj.day05;
 
 public class LoopDemo {
 	public static void main(String[] args) {
-		
+
 		// for loop
 		for(int i = 1; i <= 10; i++) {
 			if(i == 5) {
@@ -15,8 +15,8 @@ public class LoopDemo {
 		}
 
 		System.out.println();
-		
-		
+
+
 		// while loop
 		int j = 1;
 		while(j <= 20) {
@@ -25,17 +25,17 @@ public class LoopDemo {
 			}
 			j++;
 		}
-		
+
 		System.out.println();
-		
+
 		//do-while loop
 		int k = 10;
 		do {
 			System.out.println("The value of k: " +k);
 			k++;
 		} while(k <= 5);
-		
-		
+
+
 		//nested for loop
 		for(int i = 1; i <= 5; i++)  {
 			for(int l = 1; l <= 5; l++) {

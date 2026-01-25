@@ -3,7 +3,7 @@ package com.bharadwaj.day04;
 public class ControlFlowDemo {
 	public static void main(String[] args) {
 		int num = 0;
-		
+
 		if(num == 0) {
 			System.out.println("Zero");
 		} else if(num > 0) {
@@ -11,13 +11,13 @@ public class ControlFlowDemo {
 		} else {
 			System.out.println("Negative");
 		}
-		
-		
-		
+
+
+
 		int day = 0;
-		
+
 		switch(day) {
-		case 1: 
+		case 1:
 			System.out.println("Sunday");
 			break;
 		case 2:
@@ -41,11 +41,11 @@ public class ControlFlowDemo {
 		default:
 			System.out.println("Invalid day");
 		}
-		
-		
-		
+
+
+
 		int marks = 39;
-		
+
 		if(marks > 90 && marks <= 100) {
 			System.out.println("Grade S");
 		} else if(marks > 80 && marks <= 90) {
